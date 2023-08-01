@@ -4,5 +4,5 @@ jobs:
 check-bats-version:
 runs-on: ubuntu-latest
 steps:
-- run: ./test_kadai4.sh
+- run: bash test_kadai4.sh
 - run: echo "run completed"
