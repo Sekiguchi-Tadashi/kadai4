@@ -3,8 +3,8 @@
 import math
 import sys
 
-a = int(input( ))
-b = int(input( ))
+a = int(input("a is "))
+b = int(input("b is "))
 if a > 0 and b > 0:
     print(math.gcd(a, b))
     sys.exit(0)
